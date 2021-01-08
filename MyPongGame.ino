@@ -1,5 +1,3 @@
-
- 
 #include <U8glib.h>
 #include <SPI.h>
 #include <Wire.h>
@@ -40,16 +38,21 @@ const int BALL_SPEED = 10;
 //------------------------------------------- GAME VARIABLES
 //----------------------------------players
 int player1Score, player2Score = 0; 
+
 //----------------------------------ball
-int ballX=64, ballY=32; 
-int ballDirX=1, ballDirY=1; 
+unsigned int ballX=64, ballY=32; 
+unsigned int ballDirX=1, ballDirY=1; 
+
+//long ballUpdate;
 
 //----------------------------------paddles
-int paddle1X = 8;
-int paddle1Y = 16;
+unsigned int paddle2X = 8;
+unsigned int paddle2Y = 16;
 
-int paddle2X = 120;
-int paddle2Y = 16;
+unsigned int paddle1X = 120;
+unsigned int paddle1Y = 16;
+//long paddleUpdate;
+
 //----------------------------------other
 boolean GameRunning = true;
 boolean ResetBall = false;
@@ -92,6 +95,24 @@ void pressButtonToStart()                                                       
   delay(2000);
   
 }
+void printNumber(int nr, int x, int y)                                                      //####
+{
+  display.setCursor(x,y);
+  display.setTextColor(WHITE);
+  display.setTextSize(1);
+  display.setTextWrap(false);
+  display.print(nr);                                                       
+}
+void printBallCoords()                                                      //####
+{
+  display.setCursor(5, 2);
+  display.setTextColor(WHITE);
+  display.setTextSize(1);
+  display.setTextWrap(false);
+  display.print(ballX);  
+  display.setCursor(32, 2);  
+  display.print(ballY);                                                     
+}
 
 
 //--------------------------------------------------    SETUP    -------------------------------------------------- //
@@ -122,37 +143,61 @@ void setup()
   delay(500);
   
   display.clearDisplay();
-  display.drawRect(0,0,128,64, WHITE);
+  drawScreenMargins();
   display.display();
-//  while(millis() - start < 2000);
-//  ballUpdate = millis();
-//  paddleUpdate = ballUpdate;
-  ballX = random(25, 65);
-  ballY = random(3, 63);
+
+  ballX = random(30, 70);
+  ballY = random(20, 30); 
   
 }
 //--------------------------------------------------    LOOP    -------------------------------------------------- //
 
 
+
+void drawScreenMargins(){
+  display.drawRect(0,0,128,64, WHITE);
+}
+
 void loop()
 {
-  display.clearDisplay();
-  display.drawRect(0,0,128,64, WHITE);
-  unsigned long time = millis();
+  //delay(100);
+//  display.clearDisplay();
 
+  static bool P1_UP = false;
+  static bool P1_DOWN = false;
+  static bool P2_UP = false;
+  static bool P2_DOWN = false;
 
-  if(ResetBall)
+  P1_UP |= (digitalRead(UP_BUTTON_P1) == LOW);
+  P1_DOWN |= (digitalRead(DOWN_BUTTON_P1) == LOW);
+  P2_UP |= (digitalRead(UP_BUTTON_P2) == LOW);
+  P2_DOWN |= (digitalRead(DOWN_BUTTON_P2) == LOW);
+  
+  drawScreenMargins();
+  if(ResetBall) //when game starts
   {
-    ballX = random(13, 42);
-    ballY = random(13, 42); 
+    ballX = random(30, 70);
+    ballY = random(20, 30); 
 
+    do{ballDirX = random(-1,2);}
+    while(ballDirX == 0);
+    do{ballDirY = random(-1,2);}
+    while(ballDirY == 0);
+
+    ResetBall = false;
   }
 
   if(GameRunning) 
   {
-    uint8_t updateX = ballX + ballDirX;
-    uint8_t updateY = ballY + ballDirY;
-    //-----------varificam daca mingea se loveste de peretele vericat al playerului 2
+    int updateX = ballX + ballDirX;
+    int updateY = ballY + ballDirY;
+
+    printBallCoords();
+
+    //printNumber(ballDirX, 56, 26);
+    //printNumber(ballDirY, 64, 26);
+    
+    //-----------varificam daca mingea se loveste de peretele vericat al playerului 2(stanga)
     if(updateX == 0)
     {
       player1Score++;
@@ -160,24 +205,68 @@ void loop()
         showScore();
       else endGame();    
     }
-
-    if(updateX == 95)
+    //-----------varificam daca mingea se loveste de peretele vericat al playerului 1 (dreapta)
+    if(updateX == 128)
     {
       player2Score++;
       if(player2Score < MAX_SCORE)  
         showScore();
       else endGame();
     }
+    //-------------------------hitting the horizontal walls
+    if(updateY == 2 || updateY == 62 ){
+      ballDirY *= -1;
+      printNumber(ballDirY, 108, 2);
+    }
+    //----------------------------------hitting the paddle 1
+    if(updateX == paddle1X && updateY >=paddle1Y && updateY <= paddle1Y + PADDLE_SIZE ){
+      ballDirX *= -1;
+    }
+       //----------------------------------hitting the paddle 2
+    if(updateX == paddle2X && updateY >=paddle2Y && updateY <= paddle2Y + PADDLE_SIZE ){
+      ballDirX *= -1;
+    }
 
     display.drawPixel(ballX, ballY, WHITE);
     display.drawPixel(updateX, updateY, WHITE);
+
+    //ballUpdate += BALL_SPEED;
+    ballX = updateX;
+    ballY = updateY;
+  }
+
+  if(GameRunning) //paddle movement
+  {
+    int paddle1Uppery = paddle1Y + PADDLE_SIZE, paddle2Uppery = paddle2Y + PADDLE_SIZE;
+    //paddleUpdate += PADDLE_SIZE;
     display.drawFastVLine(paddle1X, paddle1Y, PADDLE_SIZE, WHITE);
     display.drawFastVLine(paddle2X, paddle2Y, PADDLE_SIZE, WHITE);
 
-    
-  }
+    if(paddle1Uppery < 61){
+      if(P1_DOWN) 
+        paddle1Y++;
+    }
+    if(paddle1Y > 3){
+      if(P1_UP) 
+        paddle1Y--;
+    }
+    if(paddle2Uppery < 61){
+      if(P2_UP) 
+        paddle2Y--;
+    }
+    if(paddle2Y > 1){
+      if(P2_DOWN) 
+        paddle2Y++;
+    }
 
+    P1_UP = false;
+    P1_DOWN = false;
+    P2_UP = false;
+    P2_DOWN = false;
+  }
   display.display();
+  display.clearDisplay();
+  
 }
 //--------------------------------------- CONTROLLER FUNCTIONS
 boolean buttonsUnpressed()
@@ -193,5 +282,12 @@ void showScore()
 }
 void endGame()
 {
-  
+  display.setCursor(10,20);
+  display.setTextColor(WHITE);
+  display.setTextSize(2);
+  display.setTextWrap(false);
+  display.print("GAME  OVER");
+  display.display();                                                        
+  display.clearDisplay();
+  delay(3000);
 }
