@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminMainMenuController">
+   <left>
+      <VBox prefHeight="850.0" prefWidth="350.0" styleClass="backround2" stylesheets="@../css/loginstyle.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="171.0" prefWidth="350.0">
+               <children>
+                  <ImageView fitHeight="208.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="17.0" prefWidth="350.0">
+               <children>
+                  <Label prefHeight="27.0" prefWidth="117.0" text="Administrator">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="419.0" prefWidth="350.0" spacing="15.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#seeUsersButtonPush" prefHeight="52.0" prefWidth="351.0" styleClass="all-button" stylesheets="@../css/loginstyle.css" text="Vezi utilizatori" />
+                  <Button layoutX="10.0" layoutY="139.0" mnemonicParsing="false" onAction="#addDocumentTypeButtonPush" prefHeight="52.0" prefWidth="351.0" styleClass="all-button" stylesheets="@../css/loginstyle.css" text="Adaugare/stergere tip documente" />
+                  <Button layoutX="10.0" layoutY="216.0" mnemonicParsing="false" onAction="#acceptRequestsButtonPush" prefHeight="52.0" prefWidth="351.0" styleClass="all-button" stylesheets="@../css/loginstyle.css" text="aprobare requesturi" />
+                  <Button layoutX="10.0" layoutY="328.0" mnemonicParsing="false" onAction="#backToLoginButtonPush" prefHeight="52.0" prefWidth="351.0" styleClass="all-button" stylesheets="@../css/loginstyle.css" text="schimba contul" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox fx:id="vboxPaneToLoad" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="userGrreet" alignment="CENTER" prefHeight="39.0" prefWidth="719.0" text="Hello">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+         </children></VBox>
+   </center>
+</BorderPane>

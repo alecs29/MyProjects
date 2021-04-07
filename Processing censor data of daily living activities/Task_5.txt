@@ -1,0 +1,9 @@
+Activity Leaving had a total duration of 1658 minutes
+Activity Breakfast had a total duration of 171 minutes
+Activity Sleeping had a total duration of 7856 minutes
+Activity Snack had a total duration of 4 minutes
+Activity Grooming had a total duration of 139 minutes
+Activity Showering had a total duration of 85 minutes
+Activity Spare_Time/TV had a total duration of 51710 minutes
+Activity Toileting had a total duration of 124 minutes
+Activity Lunch had a total duration of 310 minutes

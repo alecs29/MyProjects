@@ -1,0 +1,84 @@
+
+.loginButton
+{
+    -fx-background-color : #393351;
+    -fx-background-radius :  30 30 30 30;
+}
+.loginButton:hover
+{
+    -fx-background-color : #524A7B ;
+    -fx-background-radius :  40 40 40 40;
+}
+.loginButton:pressed
+{
+    -fx-background-color : #2F2B43 ;
+    -fx-background-radius :  30 30 30 30;
+}
+
+
+.freeDeliveryPane
+{
+    -fx-background-color : #524A7B;
+    -fx-background-radius :  30 30 30 30;
+}
+
+.mainVboxItem
+{
+    -fx-background-radius :  30 30 30 30;
+}
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);
+}
+
+.search-box{
+    -fx-background-color: #2f2b43;
+    -fx-background-radius: 100;
+}
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.all-button{
+    -fx-background-color: #CCCCCC;
+
+}
+
+.text-input {
+    -fx-text-fill: -fx-text-inner-color;
+    -fx-highlight-fill: derive(-fx-control-inner-background,-20%);
+    -fx-highlight-text-fill: -fx-text-inner-color;
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 3, 2;
+    -fx-cursor: text;
+    -fx-padding: 0.333333em 0.583em 0.333333em 0.583em; /* 4 7 4 7 */
+}
+.text-input:focused {
+    -fx-highlight-fill: -fx-accent;
+    -fx-highlight-text-fill: white;
+
+
+    -fx-background-insets: -0.2, 1, -1.4, 3;
+    -fx-background-radius: 3, 2, 4, 0;
+    -fx-prompt-text-fill: transparent;
+}
+
+
+.backround1{
+    -fx-background-color: #f8f5f1;
+}
+
+.backround2{
+    -fx-background-color: #E0E0E0;
+}
+
+
+
+
+
+
+
+
+

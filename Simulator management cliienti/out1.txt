@@ -1,0 +1,911 @@
+
+
+Time 0
+Waiting clients: (17,3,5); (5,6,3); (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 1
+Waiting clients: (17,3,5); (5,6,3); (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 2
+Waiting clients: (17,3,5); (5,6,3); (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 3
+Waiting clients: (5,6,3); (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(17,3,5);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 4
+Waiting clients: (5,6,3); (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(17,3,5);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 5
+Waiting clients: (5,6,3); (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(17,3,5);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 6
+Waiting clients: (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(17,3,5);
+Queue q1:(5,6,3);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 7
+Waiting clients: (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(17,3,5);
+Queue q1:(5,6,3);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 8
+Waiting clients: (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1:(5,6,3);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 9
+Waiting clients: (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 10
+Waiting clients: (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 11
+Waiting clients: (10,12,4); (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 12
+Waiting clients: (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(10,12,4);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 13
+Waiting clients: (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(10,12,4);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 14
+Waiting clients: (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(10,12,4);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 15
+Waiting clients: (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(10,12,4);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 16
+Waiting clients: (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 17
+Waiting clients: (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 18
+Waiting clients: (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 19
+Waiting clients: (9,20,4); (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 20
+Waiting clients: (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(9,20,4);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 21
+Waiting clients: (13,22,5); (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(9,20,4);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 22
+Waiting clients: (1,23,4); (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(9,20,4);
+Queue q1:(13,22,5);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 23
+Waiting clients: (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(9,20,4);
+Queue q1:(13,22,5);
+Queue q2:(1,23,4);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 24
+Waiting clients: (0,25,7); (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1:(13,22,5);
+Queue q2:(1,23,4);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 25
+Waiting clients: (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(0,25,7);
+Queue q1:(13,22,5);
+Queue q2:(1,23,4);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 26
+Waiting clients: (14,27,3); (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(0,25,7);
+Queue q1:(13,22,5);
+Queue q2:(1,23,4);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 27
+Waiting clients: (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(0,25,7);
+Queue q1:(14,27,3);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 28
+Waiting clients: (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(0,25,7);
+Queue q1:(14,27,3);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 29
+Waiting clients: (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(0,25,7);
+Queue q1:(14,27,3);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 30
+Waiting clients: (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(0,25,7);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 31
+Waiting clients: (4,32,4); (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(0,25,7);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 32
+Waiting clients: (18,33,6); (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(4,32,4);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 33
+Waiting clients: (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(4,32,4);
+Queue q1:(18,33,6);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 34
+Waiting clients: (7,35,4); (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(4,32,4);
+Queue q1:(18,33,6);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 35
+Waiting clients: (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(4,32,4);
+Queue q1:(18,33,6);
+Queue q2:(7,35,4);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 36
+Waiting clients: (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1:(18,33,6);
+Queue q2:(7,35,4);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 37
+Waiting clients: (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1:(18,33,6);
+Queue q2:(7,35,4);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 38
+Waiting clients: (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1:(18,33,6);
+Queue q2:(7,35,4);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 39
+Waiting clients: (2,40,3); (16,40,4); (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 40
+Waiting clients: (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(2,40,3);
+Queue q1:(16,40,4);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 41
+Waiting clients: (6,42,2); (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(2,40,3);
+Queue q1:(16,40,4);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 42
+Waiting clients: (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(2,40,3);
+Queue q1:(16,40,4);
+Queue q2:(6,42,2);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 43
+Waiting clients: (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1:(16,40,4);
+Queue q2:(6,42,2);
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 44
+Waiting clients: (3,45,1); (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 45
+Waiting clients: (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(3,45,1);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 46
+Waiting clients: (12,47,2); (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 47
+Waiting clients: (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(12,47,2);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 48
+Waiting clients: (19,49,3); (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(12,47,2);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 49
+Waiting clients: (15,50,4); (11,54,6); (8,58,7); 
+Queue q0:(19,49,3);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 50
+Waiting clients: (11,54,6); (8,58,7); 
+Queue q0:(19,49,3);
+Queue q1:(15,50,4);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 51
+Waiting clients: (11,54,6); (8,58,7); 
+Queue q0:(19,49,3);
+Queue q1:(15,50,4);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 52
+Waiting clients: (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1:(15,50,4);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 53
+Waiting clients: (11,54,6); (8,58,7); 
+Queue q0: Closed
+Queue q1:(15,50,4);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 54
+Waiting clients: (8,58,7); 
+Queue q0:(11,54,6);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 55
+Waiting clients: (8,58,7); 
+Queue q0:(11,54,6);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 56
+Waiting clients: (8,58,7); 
+Queue q0:(11,54,6);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 57
+Waiting clients: (8,58,7); 
+Queue q0:(11,54,6);
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 58
+Waiting clients: 
+Queue q0:(11,54,6);
+Queue q1:(8,58,7);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 59
+Waiting clients: 
+Queue q0:(11,54,6);
+Queue q1:(8,58,7);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 60
+Waiting clients: 
+Queue q0: Closed
+Queue q1:(8,58,7);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 61
+Waiting clients: 
+Queue q0: Closed
+Queue q1:(8,58,7);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 62
+Waiting clients: 
+Queue q0: Closed
+Queue q1:(8,58,7);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 63
+Waiting clients: 
+Queue q0: Closed
+Queue q1:(8,58,7);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 64
+Waiting clients: 
+Queue q0: Closed
+Queue q1:(8,58,7);
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 65
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 66
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 67
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 68
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 69
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 70
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 71
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 72
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 73
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 74
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 75
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 76
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 77
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 78
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 79
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 80
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 81
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 82
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 83
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 84
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 85
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 86
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 87
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 88
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 89
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 90
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 91
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 92
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 93
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 94
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 95
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 96
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 97
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 98
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 99
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+
+Time 100
+Waiting clients: 
+Queue q0: Closed
+Queue q1: Closed
+Queue q2: Closed
+Queue q3: Closed
+Queue q4: Closed
+
+Average waiting time:4.05

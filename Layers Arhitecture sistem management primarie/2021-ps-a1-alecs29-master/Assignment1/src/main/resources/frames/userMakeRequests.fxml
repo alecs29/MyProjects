@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.UserMakeRequestsController">
+   <left>
+      <VBox prefHeight="850.0" prefWidth="350.0" styleClass="backround2" stylesheets="@../css/loginstyle.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="171.0" prefWidth="350.0">
+               <children>
+                  <ImageView fitHeight="208.0" fitWidth="217.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="13.0" prefWidth="350.0">
+               <children>
+                  <Label prefHeight="21.0" prefWidth="71.0" text="requests">
+                     <font>
+                        <Font name="System Bold Italic" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#backToUserMainMenuButtonPush" prefHeight="40.0" prefWidth="174.0" styleClass="all-button" stylesheets="@../css/loginstyle.css" text="inapoi" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="332.0" prefWidth="900.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="21.0" prefWidth="323.0" text="Trimite ceree pentru un tip de document">
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets right="280.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="65.0" prefWidth="900.0" spacing="50.0">
+                     <padding>
+                        <Insets left="100.0" />
+                     </padding>
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="254.0" text="alege adresa pe care se va emite documentul:">
+                           <font>
+                              <Font name="System Italic" size="12.0" />
+                           </font>
+                        </Label>
+                        <ChoiceBox fx:id="addressChoiseBox" prefHeight="25.0" prefWidth="199.0" />
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="65.0" prefWidth="900.0" spacing="228.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="76.0" text="alege tipul:" />
+                        <ChoiceBox fx:id="typeOfDocumentChoiseBox" prefHeight="25.0" prefWidth="199.0" />
+                     </children>
+                     <padding>
+                        <Insets left="100.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="64.0" prefWidth="900.0" spacing="25.0">
+                     <children>
+                        <Label prefHeight="17.0" prefWidth="345.0" text="verifica cate requesturi ai facut in acest an pe adresa selectrata:" />
+                        <Label fx:id="numberOfRequestsRemaining">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#verifyNrOfRequestsButtonPush" prefHeight="40.0" prefWidth="78.0" styleClass="all-button" stylesheets="@../css/loginstyle.css" text="verifica" />
+                     </children>
+                  </HBox>
+                  <VBox alignment="CENTER" layoutX="10.0" layoutY="240.0" prefHeight="93.0" prefWidth="900.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#sendRequestButtonPush" prefHeight="40.0" prefWidth="266.0" styleClass="all-button" stylesheets="@../css/loginstyle.css" text="emite cerere" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <TableView fx:id="requestsTableView" prefHeight="255.0" prefWidth="900.0">
+              <columns>
+                <TableColumn fx:id="userTableColumn" prefWidth="218.0" text="User" />
+                <TableColumn fx:id="requestedTableColumn" prefWidth="241.0" text="requested" />
+                  <TableColumn fx:id="addressTableColumn" minWidth="0.0" prefWidth="264.0" text="for address" />
+                  <TableColumn fx:id="approvedTableColumn" prefWidth="162.0" text="aproved" />
+              </columns>
+            </TableView>
+            <VBox alignment="CENTER" prefHeight="73.0" prefWidth="900.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#deletedSelectedRequestButtonPush" prefHeight="40.0" prefWidth="266.0" styleClass="all-button" stylesheets="@../css/loginstyle.css" text="delete selected request" />
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

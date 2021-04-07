@@ -1,0 +1,1 @@
+numarul de zile distincte care apar in monitoring data este : 14

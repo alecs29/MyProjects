@@ -1,0 +1,140 @@
+
+day 1
+	activity Breakfast happened 1 times
+	activity Toileting happened 2 times
+	activity Grooming happened 3 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 1 times
+	activity Spare_Time/TV happened 6 times
+	activity Showering happened 1 times
+	activity Lunch happened 1 times
+
+day 2
+	activity Breakfast happened 1 times
+	activity Toileting happened 3 times
+	activity Grooming happened 4 times
+	activity Sleeping happened 1 times
+	activity Spare_Time/TV happened 7 times
+	activity Snack happened 1 times
+	activity Showering happened 1 times
+	activity Lunch happened 1 times
+
+day 3
+	activity Breakfast happened 1 times
+	activity Grooming happened 3 times
+	activity Toileting happened 2 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 1 times
+	activity Spare_Time/TV happened 4 times
+	activity Showering happened 1 times
+
+day 4
+	activity Breakfast happened 1 times
+	activity Grooming happened 2 times
+	activity Toileting happened 4 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 1 times
+	activity Spare_Time/TV happened 6 times
+	activity Snack happened 2 times
+	activity Showering happened 1 times
+
+day 5
+	activity Breakfast happened 1 times
+	activity Toileting happened 5 times
+	activity Grooming happened 6 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 2 times
+	activity Spare_Time/TV happened 7 times
+	activity Snack happened 1 times
+	activity Showering happened 1 times
+	activity Lunch happened 1 times
+
+day 6
+	activity Breakfast happened 1 times
+	activity Grooming happened 4 times
+	activity Toileting happened 3 times
+	activity Sleeping happened 1 times
+	activity Spare_Time/TV happened 5 times
+	activity Snack happened 1 times
+	activity Showering happened 1 times
+	activity Lunch happened 1 times
+
+day 7
+	activity Breakfast happened 1 times
+	activity Toileting happened 6 times
+	activity Grooming happened 5 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 1 times
+	activity Spare_Time/TV happened 8 times
+	activity Snack happened 2 times
+	activity Showering happened 1 times
+	activity Lunch happened 1 times
+
+day 8
+	activity Breakfast happened 1 times
+	activity Toileting happened 1 times
+	activity Grooming happened 5 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 1 times
+	activity Spare_Time/TV happened 4 times
+	activity Showering happened 1 times
+
+day 9
+	activity Breakfast happened 1 times
+	activity Toileting happened 2 times
+	activity Grooming happened 5 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 2 times
+	activity Spare_Time/TV happened 6 times
+	activity Showering happened 1 times
+
+day 10
+	activity Breakfast happened 1 times
+	activity Toileting happened 1 times
+	activity Grooming happened 4 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 2 times
+	activity Spare_Time/TV happened 3 times
+	activity Showering happened 1 times
+
+day 11
+	activity Breakfast happened 1 times
+	activity Toileting happened 2 times
+	activity Grooming happened 3 times
+	activity Sleeping happened 1 times
+	activity Spare_Time/TV happened 3 times
+	activity Showering happened 1 times
+	activity Lunch happened 1 times
+
+day 28
+	activity Breakfast happened 1 times
+	activity Grooming happened 2 times
+	activity Toileting happened 3 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 1 times
+	activity Spare_Time/TV happened 4 times
+	activity Snack happened 1 times
+	activity Showering happened 1 times
+	activity Lunch happened 1 times
+
+day 29
+	activity Breakfast happened 1 times
+	activity Grooming happened 3 times
+	activity Toileting happened 4 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 1 times
+	activity Spare_Time/TV happened 6 times
+	activity Snack happened 1 times
+	activity Showering happened 1 times
+	activity Lunch happened 1 times
+
+day 30
+	activity Breakfast happened 1 times
+	activity Grooming happened 2 times
+	activity Toileting happened 6 times
+	activity Sleeping happened 1 times
+	activity Leaving happened 1 times
+	activity Spare_Time/TV happened 8 times
+	activity Snack happened 2 times
+	activity Showering happened 1 times
+	activity Lunch happened 1 times
